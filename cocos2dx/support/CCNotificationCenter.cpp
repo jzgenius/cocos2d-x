@@ -126,8 +126,6 @@ void CCNotificationCenter::removeObserver(CCObject *target)
         if (observer->getTarget() == target)
         {
             m_observers->removeObject(observer);
-			
-            return;
         }
     }
 }
